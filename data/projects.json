@@ -1,0 +1,323 @@
+[
+    {
+        "name": "Bitcoin(BTC)",
+        "logo": "img/logo/bitcoin.png",
+        "regions": [
+            {
+                "Europe": [
+                    "Coinbase"
+                ]
+            },
+            {
+                "Asia": [
+                    "Binance",
+                    "Coinbase"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Litecoin(LTC)",
+        "logo": "img/logo/litecoin.svg",
+        "regions": [
+            {
+                "Europe": [
+                    "Coinbase"
+                ]
+            },
+            {
+                "Asia": [
+                    "Binance"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Ethereum(ETH)",
+        "logo": "img/logo/ethereum.svg",
+        "regions": [
+            {
+                "Europe": [
+                    "Coinbase"
+                ]
+            },
+            {
+                "Asia": [
+                    "Binance"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Bitcoin Cash(BCH)",
+        "logo": "img/logo/bitcoincash.png",
+        "regions": [
+            {
+                "Europe": [
+                    "Coinbase"
+                ]
+            },
+            {
+                "Asia": [
+                    "Binance"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Ripple(XRP)",
+        "logo": "img/logo/ripple.png",
+        "regions": [
+            {
+                "Europe": [
+                    "Coinbase"
+                ]
+            },
+            {
+                "Asia": [
+                    "Binance"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "IOTA(MIOTA)",
+        "logo": "img/logo/iota.png",
+        "regions": [
+            {
+                "Europe": [
+                    "Coinbase"
+                ]
+            },
+            {
+                "Asia": [
+                    "Binance"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Cardano(ADA)",
+        "logo": "img/logo/cardano.png",
+        "regions": [
+            {
+                "Europe": [
+                    "Coinbase"
+                ]
+            },
+            {
+                "Asia": [
+                    "Binance"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Nem(XEM)",
+        "logo": "img/logo/nem.png",
+        "regions": [
+            {
+                "Europe": [
+                    "Coinbase"
+                ]
+            },
+            {
+                "Asia": [
+                    "Binance"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Dash(DASH)",
+        "logo": "img/logo/dash.png","regions": [
+        {
+            "Europe": [
+                "Coinbase"
+            ]
+        },
+        {
+            "Asia": [
+                "Binance"
+            ]
+        }
+    ]
+    },
+    {
+        "name": "Monero(XMR)",
+        "logo": "img/logo/monero.png",
+        "regions": [
+            {
+                "Europe": [
+                    "Coinbase"
+                ]
+            },
+            {
+                "Asia": [
+                    "Binance"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "EOS(EOS)",
+        "logo": "img/logo/eos.png",
+        "regions": [
+            {
+                "Europe": [
+                    "Coinbase"
+                ]
+            },
+            {
+                "Asia": [
+                    "Binance"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Bitcoin Gold(BTG)",
+        "logo": "img/logo/bitcoingold.png",
+        "regions": [
+            {
+                "Europe": [
+                    "Coinbase"
+                ]
+            },
+            {
+                "Asia": [
+                    "Binance"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Qtum(QTUM)",
+        "logo": "img/logo/qtum.png",
+        "regions": [
+            {
+                "Europe": [
+                    "Coinbase"
+                ]
+            },
+            {
+                "Asia": [
+                    "Binance"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "NEO(NEO)",
+        "logo": "img/logo/neo.png",
+        "regions": [
+            {
+                "Europe": [
+                    "Coinbase"
+                ]
+            },
+            {
+                "Asia": [
+                    "Binance"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Stellar Lumens(STR)",
+        "logo": "img/logo/stellarlumens.png",
+        "regions": [
+            {
+                "Europe": [
+                    "Coinbase"
+                ]
+            },
+            {
+                "Asia": [
+                    "Binance"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Verge(XVG)",
+        "logo": "img/logo/verge.png",
+        "regions": [
+            {
+                "Europe": [
+                    "Coinbase"
+                ]
+            },
+            {
+                "Asia": [
+                    "Binance"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Ethereum Classic(ETC)",
+        "logo": "img/logo/ethereumclassic.png",
+        "regions": [
+            {
+                "Europe": [
+                    "Coinbase"
+                ]
+            },
+            {
+                "Asia": [
+                    "Binance"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "TRON(TRX)",
+        "logo": "img/logo/tron.png",
+        "regions": [
+            {
+                "Europe": [
+                    "Coinbase"
+                ]
+            },
+            {
+                "Asia": [
+                    "Binance"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Lisk(LSK)",
+        "logo": "img/logo/lisk.png",
+        "regions": [
+            {
+                "Europe": [
+                    "Coinbase"
+                ]
+            },
+            {
+                "Asia": [
+                    "Binance"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Zcash(ZEC)",
+        "logo": "img/logo/zcash.png",
+        "regions": [
+            {
+                "Europe": [
+                    "Coinbase"
+                ]
+            },
+            {
+                "Asia": [
+                    "Binance"
+                ]
+            }
+        ]
+    }
+]
+

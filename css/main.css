@@ -1,0 +1,648 @@
+/*! HTML5 Boilerplate v6.0.1 | MIT License | https://html5boilerplate.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * Vendor-prefixed and regular ::selection selectors cannot be combined:
+ * https://stackoverflow.com/a/16982510/7133471
+ *
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden {
+    display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ *
+ * 1. For long content, line feeds are not interpreted as spaces and small width
+ *    causes content to wrap 1 word per line:
+ *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    -webkit-clip-path: inset(50%);
+    clip-path: inset(50%);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap; /* 1 */
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    -webkit-clip-path: none;
+    clip-path: none;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+    white-space: inherit;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 1.25dppx),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster:
+                                   http://www.sanbeiji.com/archives/953 */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre {
+        white-space: pre-wrap !important;
+    }
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    position: relative;
+}
+
+#main-page {
+    background: linear-gradient(-120deg, #6acbe0, #6859ea);
+    height: 350px;
+    position: absolute;
+    width: 100%;
+}
+
+#nav {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#heading {
+    font-size: 25px;
+    color: white;
+}
+
+#pitch {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 80px;
+    color: white;
+ }
+
+#main-pich {
+    font-size: 50px;
+}
+
+#small-pitch {
+    margin-top: -3px;
+}
+
+#options {
+    margin-top: 50px;
+    text-align: center;
+    width: 60%;
+    background: white;
+    margin-right: auto; margin-left: auto;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 1px 100px 0 rgba(0, 0, 0, .30);
+    border-radius: 15px;
+    vertical-align: text-bottom;
+}
+
+/*.col {
+    width: 240px;
+} */
+
+a {
+    color: white;
+}
+
+.card1 {
+    box-shadow: 0 10px 40px 0 rgba(0, 0, 0, .30);
+    width: 200px;
+    border-radius: 5px;
+    margin: 15px;
+    color: white;
+    height: 70px;
+    position: relative;
+}
+
+#card-1 {
+    background: linear-gradient(-120deg, #f42e78, #c17afc);
+    cursor: pointer;
+}
+
+#card-2 {
+    background: linear-gradient(-120deg, #d0ffae, #34ebe9);
+    opacity: .4;
+}
+
+#card-3 {
+    background: linear-gradient(-120deg, #fec180, #ff8993);
+    opacity: .4;
+}
+
+#animatedModal {
+    display: none;
+    background: white;
+}
+
+#animatedModal2 {
+    display: none;
+    background: black;
+}
+
+.close-animatedModal {
+    float: right;
+    margin-right: 3%;
+    margin-top: 3%;
+    cursor: pointer;
+}
+
+.modal-content {
+    margin-right: 10%;
+    margin-left: 5%;
+}
+
+#projectGrid{
+    margin-bottom: 40px;
+    font-size: 10px;
+    width: 110%;
+}
+
+#projectGrid li{
+    display: inline-block;
+    background: #eee;
+    width: 23%;
+    /*padding-top: 23%; /* Used instead of height to give elements fluid, width-based height */
+    margin-bottom: 2.5%;
+    margin-left: 10px;
+    min-width: 170px;
+    max-width: 200px;
+    text-align: center;
+    cursor: pointer;
+    /*border: dashed black 5px;*/
+}
+
+#projectGrid li > img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#pickedRegion {
+    display: inline-block;
+    background: #eee;
+    width: 23%;
+    /*padding-top: 23%; /* Used instead of height to give elements fluid, width-based height */
+    margin-bottom: 2.5%;
+    margin-left: 10px;
+    min-width: 170px;
+    max-width: 200px;
+    text-align: center;
+    cursor: pointer;
+    border: dashed black 5px;
+    height: 200px;
+}
+
+.logoHeading {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#main-body {
+    /*background: oldlace;*/
+    height: 300px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: -60px;
+    /*box-shadow: 0 1px 30px 0 rgba(0, 0, 0, .15);
+    border-radius: 15px;*/
+    overflow: auto;
+    position: static;
+    z-index: -999;
+}
+
+
+
+#intro {
+    margin-top: 150px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.centre {
+    overflow: hidden;
+    margin: 0;
+    float: none;
+}
+
+#step1Logo {
+}
+
+#step1Heading {
+    margin-left: 8px;
+    border-bottom: 3px solid #ED4264;
+}
+
+ol {
+    margin-top: 60px;
+    --bg: #fdfdfd;
+    --highlight1: #ED4264;
+    --highlight2: #FFEDBC;
+    --font-number: Montserrat, Roboto, Helvetica, Arial, sans-serif;
+    --font-head: Consolas, Menlo, Monaco, "Courier New", monospace;
+    --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+
+
+.item {
+    display: block;
+    clear: both;
+    counter-increment: list;
+    padding-bottom: 4rem;
+    font-size: 1.1rem;
+    line-height: 1.375;
+    position: relative;
+    float: none;
+}
+
+.item:before {
+    font: bold 2.25rem/1 var(--font-number);
+    content: counter(list);
+    width: 5rem;
+    height: 5rem;
+    float: left;
+    margin: 0 1.5rem 0.75rem 0;
+    color: var(--bg);
+    background: var(--highlight1) -webkit-gradient(linear, left top, right bottom, color-stop(25%, var(--highlight1)), to(var(--highlight2)));
+    background: var(--highlight1) linear-gradient(to bottom right, var(--highlight1) 25%, var(--highlight2));
+    text-shadow: 0 0 2px var(--highlight1);
+    border-radius: 50%;
+    display: webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    shape-outside: ellipse();
+    position: relative;
+    z-index: 2;
+}
+
+.item:after {
+    width: 2.5rem;
+    height: 2.5rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    background: var(--highlight1);
+    z-index: 1;
+    border-top-left-radius: 3px;
+}
+
+.headline {
+    padding: 0rem 0 0 0;
+    margin: 0 0 1rem 0;
+    font: normal 2rem var(--font-head);
+}
+
+@media screen and (max-width: 800px) {
+    .card1 {
+        width: 160px;
+        margin: 10px;
+    }
+}
+
+/* TABLET */
+@media screen and (max-width: 700px) {
+    #main-page {
+        height: 300px;
+    }
+
+    #heading {
+        font-size: 20px;
+    }
+
+    #pitch {
+        margin-top: 45px;
+    }
+
+    #main-pich {
+        font-size: 30px;
+    }
+
+    #small-pitch {
+        font-size: 15px;
+    }
+
+    #options {
+        width: 70%;
+    }
+
+    .card1 {
+        width: 120px;
+        font-size: 14px;
+        margin: 8px;
+    }
+
+    #projectGrid li{
+        min-width: 155px;
+    }
+}
+
+/* GRID RESIZE */
+
+@media screen and (max-width: 590px) {
+    #projectGrid li{
+        width: 100%;
+        margin-bottom: 1%;
+        min-width: 100%;
+    }
+    #options {
+        width: 75%;
+    }
+}
+
+ /* PHONE */
+@media screen and (max-width: 380px) {
+    #main-page {
+        height: 200px;
+    }
+
+    #nav {
+        margin-left: 0;
+    }
+
+    #heading {
+        font-size: 17px;
+        text-align: center;
+        width: 100%;
+    }
+
+    #pitch {
+        margin-top: 20px;
+    }
+
+    #main-pich {
+        font-size: 25px;
+    }
+
+    #small-pitch {
+        font-size: 12px;
+    }
+
+    #options {
+        width: 80%;
+    }
+
+    .card1 {
+        width: 70px;
+        height: 70px;
+        font-size: 10px;
+        margin: 5px;
+    }
+}

@@ -1,0 +1,10 @@
+[
+    {
+        "name": "Coinbase",
+        "logo": "img/exchangeLogo/coinbase.png"
+    },
+    {
+        "name": "Binance",
+        "logo": "img/exchangeLogo/binance.png"
+    }
+]

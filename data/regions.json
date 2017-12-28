@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Africa",
+        "logo": "img/region/africa.png",
+        "id": 2
+    },
+    {
+        "name": "Asia",
+        "logo": "img/region/asia.png",
+        "id": 1
+    },
+    {
+        "name": "Europe",
+        "logo": "img/region/europe.png",
+        "id": 0
+    },
+    {
+        "name": "North America",
+        "logo": "img/region/northamerica.png",
+        "id": 3
+    },
+    {
+        "name": "South America",
+        "logo": "img/region/southamerica.png",
+        "id": 4
+    },
+    {
+        "name": "Antarctica",
+        "logo": "img/region/antarctica.png",
+        "id": 5
+    },
+    {
+        "name": "Australia",
+        "logo": "img/region/australia.png",
+        "id": 6
+    }
+]
